@@ -13,6 +13,9 @@ from matplotlib import ticker
 import altair as alt
 
 
+plt.rcParams['font.sans-serif']=['SimHei']
+plt.rcParams['axes.unicode_minus']=False 
+
 plt.rcParams['axes.unicode_minus'] = False  
 matplotlib.rcParams['font.family']='SimHei'
 plt.rcParams['text.color'] = 'black'

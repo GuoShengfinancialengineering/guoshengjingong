@@ -11,8 +11,10 @@ import matplotlib
 from matplotlib.ticker import FuncFormatter
 from matplotlib import ticker 
 import altair as alt
+from matplotlib import font_manager
 from mplfonts import use_font
 use_font('SimHei')
+font_manager.fontManager.addfont('SimHei.ttf')
 plt.rcParams['font.sans-serif']=['SimHei']
 plt.rcParams['axes.unicode_minus']=False 
 matplotlib.rcParams['font.family']='SimHei'

@@ -502,23 +502,37 @@ if app_state == "unlocked":
                     with col1:
                         st.pyplot(figa, transparent=True)
                         st.pyplot(figb, transparent=True)
-                        st.pyplot(figc, transparent=True)
+                        st.pyplot(fige, transparent=True)
                     with col2:   
                         st.pyplot(figd, transparent=True)
-                        st.pyplot(fige, transparent=True)
+                        st.pyplot(figc, transparent=True)
                         st.pyplot(figf, transparent=True)
 
 
 
     #未进行查询
     else:
-            st.title("👈请在左侧输入查询内容")
-            st.markdown("以下为原始数据💻：")
+            
+            #st.markdown("以下为原始数据💻：")
             # 显示原始数据表格
-            tab1, tab2,tab3 = st.tabs(["R_decomposition_result", "ind_GD_HS_result","style_ind_result "])
-            with tab1:st.dataframe(R_decomposition_result)
-            with tab2:st.dataframe(ind_GD_HS_result) 
-            with tab3:st.dataframe(style_ind_result)
+            # tab1, tab2,tab3 = st.tabs(["R_decomposition_result", "ind_GD_HS_result","style_ind_result "])
+            # with tab1:st.dataframe(R_decomposition_result)
+            # with tab2:st.dataframe(ind_GD_HS_result) 
+            # with tab3:st.dataframe(style_ind_result)
+            #显示图片1,2
+            st.title("👈请在左侧输入查询内容")
+            st.markdown('---')
+            with st.empty():
+                for seconds in range(60):
+                    st.image("1.png")
+                    time.sleep(8)
+                    st.image("2.png")
+                    time.sleep(8)
+
+    #模块2
+    #if category == "基金查询":
+        #在这里编辑你想要的内容        
+
 
 else:
 

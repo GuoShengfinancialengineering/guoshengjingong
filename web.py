@@ -30,7 +30,7 @@ pio.templates["plotly"]["layout"]["font"]["size"] = 12  # 设置字体大小
 pio.templates["plotly"]["layout"]["font"]["color"] = "black"  # 设置字体颜色
 
 # 预设的密码
-correct_password = "0628"
+correct_password = "1225"
 placeholder2 = st.empty()
 placeholder1 = st.empty()
 

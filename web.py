@@ -61,7 +61,7 @@ if app_state == "unlocked":
 
 
     #侧边栏
-    category = st.sidebar.selectbox("选择类目", ["基金查询", "因子总览"])
+    category = st.sidebar.selectbox("选择类目", ["基金画像", "业绩归因","选基策略","定期跟踪","研究报告"])
     #主页面样式设置
 
 

@@ -67,7 +67,7 @@ if app_state == "unlocked":
 
     ##################
     #基金查询
-    if category == "基金查询":
+    if category == "基金画像":
         # 在侧边栏中添加一个搜索框
         fund_name = st.sidebar.text_input("搜索基金名称", "")
         # 获取数据中的最小日期和最大日期
